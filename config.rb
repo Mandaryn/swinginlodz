@@ -57,7 +57,7 @@ end
 
 # Build Environment
 configure :build do
-  set :base_url, "/swinginlodz"
+  set :base_url, "http://mandaryn.github.io/swinginlodz/"
   set :http_prefix, "/swinginlodz"
 
   # Minify CSS on build
