@@ -98,3 +98,9 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.strategy = :submodule
 end
+
+helpers do
+  def nav_active(path)
+    current_page.path.match(path) ? { class: "active" } : { class: current_page.path }
+  end
+end
