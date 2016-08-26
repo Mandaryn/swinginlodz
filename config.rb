@@ -24,7 +24,7 @@ page '/*.txt', layout: false
 # Environment List
 ###
 
-set :base_url, nil
+set :base_url, "/"
 
 # Server Environment
 configure :server do
@@ -58,7 +58,7 @@ end
 # Build Environment
 configure :build do
   set :base_url, "http://mandaryn.github.io/swinginlodz/"
-  set :http_prefix, "/swinginlodz"
+  set :http_prefix, "http://mandaryn.github.io/swinginlodz/"
 
   # Minify CSS on build
   activate :minify_css
@@ -68,9 +68,6 @@ configure :build do
 
   # GZIP text files
   # activate :gzip
-
-  # Use relative URLs
-  activate :relative_assets
 
   activate :deploy do |deploy|
     deploy.deploy_method = :git
