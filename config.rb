@@ -26,6 +26,8 @@ page '/*.txt', layout: false
 
 set :base_url, "/"
 
+activate :i18n, langs: [:pl, :en]
+
 # Server Environment
 configure :server do
 
@@ -58,7 +60,7 @@ end
 # Build Environment
 configure :build do
   set :base_url, "http://mandaryn.github.io/swinginlodz/"
-  set :http_prefix, "http://mandaryn.github.io/swinginlodz/"
+  # set :http_prefix, "http://mandaryn.github.io/swinginlodz/"
 
   # Minify CSS on build
   activate :minify_css
@@ -90,6 +92,19 @@ configure :production do
 end
 
 helpers do
+  def localized_link_to(*args)
+    link_to(*args, locale: I18n.locale)
+  end
+
+  def change_locale_link(locale)
+    link_to(locale.to_s.upcase, unlocalize_current_path, locale: locale)
+  end
+
+  def unlocalize_current_path
+    locale_without_first_slash = extensions[:i18n].path_root(I18n.locale).sub(%r{^/}, "")
+    current_page.path.sub(locale_without_first_slash, "")
+  end
+
   def nav_active(path)
     current_page.path.match(path) ? { class: "active" } : { class: current_page.path }
   end

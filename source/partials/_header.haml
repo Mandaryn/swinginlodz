@@ -2,6 +2,10 @@
   .header
     .logo.hidden-sm.hidden-xs.pull-left
       = image_tag("logo.png")
+    .languages.hidden-sm.hidden-xs.pull-left
+      = change_locale_link(:pl)
+      \|
+      = change_locale_link(:en)
     .center
       .name
         Swing Załoga
@@ -11,9 +15,8 @@
   %nav.navbar.navbar-default
     .collapse.navbar-collapse#bs-example-navbar-collapse-1
       %ul.nav.navbar-nav
-        %li{ nav_active(%r{^index.html}) }= link_to "Home", ""
-        %li{ nav_active(%r{^classes/.*}) }= link_to "Zajęcia", "classes/"
-        %li{ nav_active(%r{^about/.*}) }= link_to "O Łódzkim swingu", "about/"
-        %li{ nav_active(%r{^parties/.*}) }= link_to "Potańcówki", "parties/"
-        %li{ nav_active(%r{^contact/.*}) }= link_to "Kontakt", "contact/"
-        
+        / %li{ nav_active(%r{^index.html}) }= localized_link_to t(:home), "/index.html"
+        %li{ nav_active(%r{^classes/.*}) }= localized_link_to t(:classes), "/classes/index.html"
+        %li{ nav_active(%r{^about/.*}) }= localized_link_to t(:about), "/about/index.html"
+        %li{ nav_active(%r{^parties/.*}) }= localized_link_to t(:parties), "/parties/index.html"
+        %li{ nav_active(%r{^contact/.*}) }= localized_link_to t(:contact), "/contact/index.html"
