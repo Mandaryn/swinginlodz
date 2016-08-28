@@ -60,7 +60,6 @@ end
 # Build Environment
 configure :build do
   set :base_url, "http://mandaryn.github.io/swinginlodz/"
-  # set :http_prefix, "http://mandaryn.github.io/swinginlodz/"
 
   # Minify CSS on build
   activate :minify_css
@@ -70,6 +69,8 @@ configure :build do
 
   # GZIP text files
   # activate :gzip
+
+  activate :asset_host, host: 'http://mandaryn.github.io/swinginlodz/'
 
   activate :deploy do |deploy|
     deploy.deploy_method = :git
@@ -94,6 +95,10 @@ end
 helpers do
   def localized_link_to(*args)
     link_to(*args, locale: I18n.locale)
+  end
+
+  def url_for(*args)
+    super.sub(%r{^/}, "")
   end
 
   def change_locale_link(locale)

@@ -15,8 +15,8 @@
   %nav.navbar.navbar-default
     .collapse.navbar-collapse#bs-example-navbar-collapse-1
       %ul.nav.navbar-nav
-        / %li{ nav_active(%r{^index.html}) }= localized_link_to t(:home), "/index.html"
-        %li{ nav_active(%r{^classes/.*}) }= localized_link_to t(:classes), "/classes/index.html"
-        %li{ nav_active(%r{^about/.*}) }= localized_link_to t(:about), "/about/index.html"
-        %li{ nav_active(%r{^parties/.*}) }= localized_link_to t(:parties), "/parties/index.html"
-        %li{ nav_active(%r{^contact/.*}) }= localized_link_to t(:contact), "/contact/index.html"
+        %li{ nav_active(%r{^index.html}) }= localized_link_to t(:home), "index.html"
+        %li{ nav_active(%r{^classes/.*}) }= localized_link_to t(:classes), "classes/index.html"
+        %li{ nav_active(%r{^about/.*}) }= localized_link_to t(:about), "about/index.html"
+        %li{ nav_active(%r{^parties/.*}) }= localized_link_to t(:parties), "parties/index.html"
+        %li{ nav_active(%r{^contact/.*}) }= localized_link_to t(:contact), "contact/index.html"
