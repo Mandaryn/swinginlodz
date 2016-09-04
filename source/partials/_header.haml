@@ -1,19 +1,27 @@
 .container
-  .header
-    .logo.hidden-sm.hidden-xs.pull-left
+  .header.row
+    .logo.hidden-sm.hidden-xs.col-md-2
       = image_tag("logo.png")
-    .languages.hidden-sm.hidden-xs.pull-left
-      = change_locale_link(:pl)
-      \|
-      = change_locale_link(:en)
-    .center
+    .center.col-md-8.col-xs-12
       .name
         Swing Załoga
         .city
           Łódź
+    .languages.hidden-sm.hidden-xs.col-md-2
+      .choice
+        = change_locale_link(:pl)
+        \|
+        = change_locale_link(:en)
 
-  %nav.navbar.navbar-default
-    .collapse.navbar-collapse#bs-example-navbar-collapse-1
+.container
+  %nav.navbar.navbar-inverse.row
+    .navbar-header
+      %button.navbar-toggle{type: "button", data: { toggle: "collapse", target: "#main_navbar" } }
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      = link_to "Swing Załoga", "index.html", class: "navbar-brand", locale: I18n.locale
+    .collapse.navbar-collapse#main_navbar
       %ul.nav.navbar-nav
         %li{ nav_active(%r{^index.html}) }= localized_link_to t(:home), "index.html"
         %li{ nav_active(%r{^classes/.*}) }= localized_link_to t(:classes), "classes/index.html"

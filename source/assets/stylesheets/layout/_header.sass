@@ -1,3 +1,54 @@
 //------------------------------------
     #header
 //------------------------------------
+.header
+  height: 101px
+  background-color: $background-green
+  .logo
+    text-align: center
+  .center
+    padding-top: 10px
+    font-family: Lobster, cursive
+    text-align: center
+    overflow: hidden
+    white-space: nowrap
+    .name
+      position: relative
+      display: inline-block
+      font-size: 35px
+      font-weight: bold
+      .city
+        line-height: 1
+        font-size: 23px
+    .name:before, .name:after
+      content: ""
+      position: absolute
+      top: 33%
+      width: 9999px
+      height: 4px
+      background: black
+
+    .name:before
+      right: 100%
+      margin-right: 15px
+
+    .name:after
+      left: 100%
+      margin-left: 15px
+  .languages
+    .choice
+      font-size: 14px
+      text-align: right
+      padding: 15px
+      a
+        color: $black
+.navbar
+  border: solid $black 0px
+  .navbar-header a
+    padding-left: 30px
+    padding-right: 15px
+  li
+    &.active
+      background-color: $navbar-inverse-link-hover-bg
+    &:hover
+      background-color: $navbar-inverse-link-hover-bg

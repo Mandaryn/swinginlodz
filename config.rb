@@ -27,6 +27,7 @@ page '/*.txt', layout: false
 set :base_url, "/"
 
 activate :i18n, langs: [:pl, :en]
+activate :sprockets
 
 # Server Environment
 configure :server do
