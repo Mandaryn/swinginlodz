@@ -15,5 +15,42 @@
       Można nas również zaprosić na różne retro wydarzenia, chętnie się pokażemy!
 
   .col-sm-6
-    .well
-      Mapki z googla z lokacjami sali, i miejsc gdzie tanczymy
+    #map
+
+:javascript
+  var map;
+  function initialize() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: new google.maps.LatLng(51.768322, 19.458568),
+      mapTypeId: 'roadmap',
+      styles: []
+    });
+
+    var icons = {
+      classes: {
+        icon: "http://mandaryn.github.io/swinginlodz/assets/images/logo.png"
+      }
+    };
+
+    function addMarker(feature) {
+      var marker = new google.maps.Marker({
+        title: feature.title,
+        position: feature.position,
+        map: map
+      });
+    }
+
+    var features = [
+      {
+        position: new google.maps.LatLng(51.768322, 19.458568),
+        type: 'classes',
+        title: 'Regular classes'
+      }
+    ];
+
+    for (var i = 0, feature; feature = features[i]; i++) {
+      addMarker(feature);
+    }
+  }
+= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyArmX6H-xduJdC4PTSArCqKj6F63CaIc4c&callback=initialize", defer: true, async: true

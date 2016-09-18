@@ -3,8 +3,8 @@ banner:
   header: Join us!
   links:
     -
-      link: "http://example.com"
-      text: "zajęcia w każdą środe o 19:00"
+      link: "http://localhost:4567/classes/"
+      text: "each wednesday at 19:00"
     -
-      link: "http://example.com"
-      text: "zobacz jak tanczymy"
+      link: "https://www.youtube.com/channel/UC-EjMrhJCy_-1UZaRO3hFXw"
+      text: "see how we dance"
