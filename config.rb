@@ -1,3 +1,4 @@
+require "active_support/core_ext/array/wrap"
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -94,10 +95,6 @@ configure :production do
 end
 
 helpers do
-  def localized_link_to(*args)
-    link_to(*args, locale: I18n.locale)
-  end
-
   def url_for(*args)
     super.sub(%r{^/}, "")
   end

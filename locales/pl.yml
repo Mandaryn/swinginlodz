@@ -1,7 +1,14 @@
 ---
 pl:
-  home: "Home"
-  classes: "Zajęcia"
-  about: "O Łódzkim swingu"
-  parties: "Potańcówki"
-  contact: "Kontakt"
+  header:
+    classes: "Zajęcia"
+    parties: "Potańcówki"
+    members: "Załoga"
+    contact: "Kontakt"
+  footer:
+    find_us_on: "Znajdź nas na:"
+  pages:
+    contact:
+      p1: "Jeśli chcesz do na dołączyć, zobaczyć jak tańczymy lub masz jakieś pytania skontaktuj się z nami:"
+    classes:
+      p1: "Regularne zajęcia w parach odbywają się we środy we środy, czwartki i piątki w na sali tanecznej w YMCA"

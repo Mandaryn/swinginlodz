@@ -1,0 +1,10 @@
+---
+banner:
+  header: Join us!
+  links:
+    -
+      link: "http://example.com"
+      text: "zajęcia w każdą środe o 19:00"
+    -
+      link: "http://example.com"
+      text: "zobacz jak tanczymy"

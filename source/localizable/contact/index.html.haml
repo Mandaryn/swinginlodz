@@ -1,3 +1,19 @@
-.container
-  .jumbotron
-    Swing
+%h1.h1= t(:contact, scope: :header)
+.row
+  .col-sm-6
+    %p
+      = t(:p1, scope: "pages.contact")
+    %p
+      Przez email:
+      = mail_to "swinginlodz@gmail.com", "swinginlodz@gmail.com"
+    %p
+      Przez facebooka:
+      = link_to "https://www.facebook.com/swinginlodz/" do
+        %i.fa.fa-facebook-official<>
+        Facebook
+    %p
+      Można nas również zaprosić na różne retro wydarzenia, chętnie się pokażemy!
+
+  .col-sm-6
+    .well
+      Mapki z googla z lokacjami sali, i miejsc gdzie tanczymy

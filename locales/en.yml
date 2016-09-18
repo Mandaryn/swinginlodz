@@ -1,7 +1,12 @@
 ---
 en:
-  home: "Home"
-  classes: "Classes"
-  about: "About Lodz swing"
-  parties: "Parties"
-  contact: "Contact"
+  header:
+    classes: "Classes"
+    members: "Members"
+    parties: "Parties"
+    contact: "Contact"
+  footer:
+    find_us_on: "Find us on:"
+  pages:
+    contact:
+      p1: "We dance a lot, so might be hard to catch, so please contact us via:"

@@ -1,3 +1,25 @@
-.container
-  .jumbotron
-    Swing now
+.row.banner
+  = image_tag "home/banner.jpg", class: "img-responsive"
+  .join_us
+    %h1.h1
+      = data.send(I18n.locale).home.banner.header
+    - Array.wrap(data.send(I18n.locale).home.banner.links).each do |link|
+      %p
+        = link_to link.text, link.link
+  
+%h1.h1
+  Wkrocz z nami w magiczny świat Lindy Hop
+.row
+  .col-md-6
+    %p
+      Swing Załoga to grupa, która zrzesza wszystkich, którzy czują pociąg do Lindy Hopa i jazzowych rytmów. A także do Łodzi. Swingowej!
+    %p
+      Zaczęło się od Wprawek Swingowych w Prexerze w listopadzie 2014 roku. Na wzór innych miast powstała grupa facebook'owa "Lindy Hop in Łódź". W grudniu zaczęły się pierwsze potańcówki i wypady na imprezy i festiwale do innych miast. Szaleństwo podkręcały uliczne happeningi, warsztaty z przyjezdnymi instruktorami i tańce do muzyki na żywo lokalnego bandu. Okazało się, że w Łodzi jest idealny klimat do przypomnienia uroku złotej ery swinga! Pofabryczne, loftowe przestrzenie, eleganckie kamienice i potencjał w postaci spontanicznych i otwartych ludzi. 
+    %p
+      Grupa, która tańczy niezmiennie od 2014 roku, chce zarażać Łodzian alternatywną ideą potańcówek i dawać okazje do wspólnej zabawy przy muzyce jazzowej. 
+    %p
+      Zrzeszamy również pasjonatów mody i amerykańskiego kina lat 30. i 40., design'u z tamtego okresu i wszystkiego, co pozwala lepiej rozumieć kontekst kultury, w której powstał Lindy Hop. Każdy z nas dotarł do swinga inaczej.. Wszyscy chcemy budować Łódź Swingową i wspólnie bawić się w tańcu. :)
+  .col-md-6
+    / = image_tag "home/zaloga_1.jpg", class: "img-responsive"
+    = image_tag "home/zaloga_2.jpg", class: "img-responsive"
+    / = image_tag "home/zaloga_3.jpg", class: "img-responsive"
