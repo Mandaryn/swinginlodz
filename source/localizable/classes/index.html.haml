@@ -3,27 +3,14 @@
 %p
   = t(:p1, scope: "pages.classes")
 .row
-  .col-lg-3.col-md-4.col-sm-6
-    %h3
-      Początkujący
-      %small Zuza i Wojtek
-    %p
-      19:00-21:30
-  .col-lg-3.col-md-4.col-sm-6
-    %h3
-      Początkujący
-      %small Lena i Piotrek
-    %p
-      19:00-21:30
-  .col-lg-3.col-md-4.col-sm-6
-    %h3
-      Stare wygi
-      %small Zuza i Bartek
-    %p
-      19:00-21:30
-  .col-lg-3.col-md-4.col-sm-6
-    %h3
-      Solo jazz
-      %small Zuza
-    %p
-      19:00-21:30
+  - Array.wrap(data.send(I18n.locale).classes.classes).each do |klass|
+    .col-lg-3.col-md-4.col-sm-6
+      .banner
+        %h3.h3
+          = klass.name
+          %small= klass.leaders
+        %p
+          = klass.weekday
+          = klass.time
+        %p
+          = klass.description
