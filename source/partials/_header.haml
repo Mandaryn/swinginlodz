@@ -27,3 +27,4 @@
         %li{ nav_active(%r{^members/.*}) }= link_to t(:members, scope: :header), "members/index.html", locale: I18n.locale
         %li{ nav_active(%r{^parties/.*}) }= link_to t(:parties, scope: :header), "parties/index.html", locale: I18n.locale
         %li{ nav_active(%r{^contact/.*}) }= link_to t(:contact, scope: :header), "contact/index.html", locale: I18n.locale
+        %li.highlight= link_to t(:fabricks, scope: :header), "contact/index.html", locale: I18n.locale, target: "_blank"

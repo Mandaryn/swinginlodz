@@ -6,7 +6,7 @@
 .row
   - Array.wrap(data.send(I18n.locale).classes.classes).each do |klass|
     .col-lg-3.col-md-4.col-sm-6
-      .flag{ class: ("active" if klass.highlight) }
+      .flag{ class: ("highlight" if klass.highlight) }
         %h3.h3
           = klass.name
           %small= klass.leaders
