@@ -17,6 +17,14 @@ pl:
         - "Grupa, która tańczy niezmiennie od 2014 roku, chce zarażać Łodzian alternatywną ideą potańcówek i dawać okazje do wspólnej zabawy przy muzyce jazzowej."
         - "Zrzeszamy również pasjonatów mody i amerykańskiego kina lat 30. i 40., design'u z tamtego okresu i wszystkiego, co pozwala lepiej rozumieć kontekst kultury, w której powstał Lindy Hop. Każdy z nas dotarł do swinga inaczej.. Wszyscy chcemy budować Łódź Swingową i wspólnie bawić się w tańcu. :)"
     contact:
-      p1: "Jeśli chcesz do na dołączyć, zobaczyć jak tańczymy lub masz jakieś pytania skontaktuj się z nami:"
+      header: "Kontakt"
+      intro: "Jeśli chcesz do na dołączyć, zobaczyć jak tańczymy lub masz jakieś pytania skontaktuj się z nami:"
+      by_email: "Przez email:"
+      by_facebook: "Przez facebooka:"
+      events: "Można nas również zaprosić na różne retro wydarzenia, chętnie się pokażemy!"
     classes:
-      p1: "Regularne zajęcia w parach odbywają się we środy we środy, czwartki i piątki w na sali tanecznej w YMCA"
+      p1: "Regularne zajęcia w parach odbywają się na sali tanecznej w YMCA, ul. Moniuszki 234"
+    members:
+      header: "Załoga"
+      text:
+        - "Swing Załoga to grupa, która zrzesza wszystkich, którzy czują pociąg do Lindy Hopa i jazzowych rytmów. A także do Łodzi. Swingowej!"

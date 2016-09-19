@@ -7,3 +7,46 @@ body
   background-image: linear-gradient(90deg, transparent 50%, rgba(0, 0, 0, 0) 50%, #c1c1c1 10%)
   background-size: 100px 100px
   background-position: center
+
+.flag
+  position: relative
+  overflow: hidden
+  padding-left: 15px
+  padding-right: 15px
+  padding-bottom: 60px
+  text-align: center
+  margin-bottom: 30px
+
+  &:before
+    content: ''
+    position: absolute
+    width: 50%
+    height: 110%
+    bottom: 0
+    left: 50%
+    background-color: $green
+    transform-origin: 0% 100%
+    transform: skewY(-15deg)
+    z-index: -1
+
+  &:after
+    content: ''
+    position: absolute
+    width: 50%
+    height: 110%
+    bottom: 0
+    left: 0
+    background-color: $green
+    transform-origin: 100% 100%
+    transform: skewY(15deg)
+    z-index: -1
+
+  &.active
+    &:before
+      background-color: $yellow
+    &:after
+      background-color: $yellow
+  small
+    display: block
+  img
+    width: 100%

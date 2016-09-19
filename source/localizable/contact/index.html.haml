@@ -1,18 +1,20 @@
-%h1.h1= t(:contact, scope: :header)
+%h1.h1= t(:header, scope: "pages.contact")
 .row
   .col-sm-6
     %p
-      = t(:p1, scope: "pages.contact")
+      = t(:intro, scope: "pages.contact")
     %p
-      Przez email:
-      = mail_to "swinginlodz@gmail.com", "swinginlodz@gmail.com"
+      = t(:by_email, scope: "pages.contact")
+      = mail_to "swinginlodz@gmail.com" do
+        %i.fa.fa-email<>
+        swinginlodz@gmail.com
     %p
-      Przez facebooka:
+      = t(:by_facebook, scope: "pages.contact")
       = link_to "https://www.facebook.com/swinginlodz/" do
         %i.fa.fa-facebook-official<>
         Facebook
     %p
-      Można nas również zaprosić na różne retro wydarzenia, chętnie się pokażemy!
+      = t(:events, scope: "pages.contact")
 
   .col-sm-6
     #map
