@@ -1,7 +1,8 @@
 %h1.h1
-  = t(:classes, scope: "header")
-%p
-  = t(:p1, scope: "pages.classes")
+  = t(:header, scope: "pages.classes")
+
+- t(:text, scope: "pages.classes").each do |paragraph|
+  %p= paragraph
 .row
   - Array.wrap(data.send(I18n.locale).classes.classes).each do |klass|
     .col-lg-3.col-md-4.col-sm-6

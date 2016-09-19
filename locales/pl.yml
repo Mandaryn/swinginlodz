@@ -6,6 +6,7 @@ pl:
     members: "Załoga"
     contact: "Kontakt"
   footer:
+    created_by: "Strona stworzona przez Mandaryna"
     find_us_on: "Znajdź nas na:"
   pages:
     home:
@@ -23,8 +24,14 @@ pl:
       by_facebook: "Przez facebooka:"
       events: "Można nas również zaprosić na różne retro wydarzenia, chętnie się pokażemy!"
     classes:
-      p1: "Regularne zajęcia w parach odbywają się na sali tanecznej w YMCA, ul. Moniuszki 234"
+      header: "Zajęcia"
+      text:
+        - "Regularne zajęcia w parach odbywają się na sali tanecznej w YMCA, ul. Moniuszki 234"
     members:
       header: "Załoga"
       text:
         - "Swing Załoga to grupa, która zrzesza wszystkich, którzy czują pociąg do Lindy Hopa i jazzowych rytmów. A także do Łodzi. Swingowej!"
+    parties:
+      header: "Potańcówki"
+      text:
+        - "Zapraszamy na nasze regularne potańcówki, które odbywają się we środy w 'Z innej beczki' po zajęciach. Możesz zobaczyć co tak naprawde robimy i jakie to fajne."

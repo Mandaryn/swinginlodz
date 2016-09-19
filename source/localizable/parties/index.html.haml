@@ -1,3 +1,5 @@
-.container
-  .jumbotron
-    Swing
+%h1.h1
+  = t(:header, scope: "pages.parties")
+
+- t(:text, scope: "pages.parties").each do |paragraph|
+  %p= paragraph

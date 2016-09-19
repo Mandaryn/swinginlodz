@@ -1,7 +1,9 @@
 %footer.footer
   .container
-    .row.text-right
-      .col-xs-12
+    .row
+      .col-xs-6
+        = t(:created_by, scope: :footer)
+      .col-xs-6.text-right
         = t(:find_us_on, scope: :footer)
         = link_to "https://www.facebook.com/swinginlodz/" do
           %i.fa.fa-facebook-official.fa-2x<>
