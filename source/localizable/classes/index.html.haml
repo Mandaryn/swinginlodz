@@ -13,5 +13,5 @@
         %p
           = klass.weekday
           = klass.time
-        %p
-          = klass.description
+        - Array.wrap(klass.description).each do |paragraph|
+          %p= paragraph
