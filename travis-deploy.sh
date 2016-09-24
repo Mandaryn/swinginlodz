@@ -7,19 +7,6 @@ fi
 
 echo -e "\nRunning Travis Deployment"
 echo "Setting up Git Access"
-openssl aes-256-cbc -K $encrypted_bdf8bc5101cd_key -iv $encrypted_bdf8bc5101cd_iv -in deploy_key.enc -out deploy_key -d
-chmod 600 deploy_key
-
-# Add the SSH key so it's used on git commands
-eval `ssh-agent -s`
-ssh-add deploy_key
-
-HTTPS_URL=$(git config remote.origin.url)
-SSH_URL=${HTTPS_URL/https:\/\/github.com\//git@github.com:}
-git remote set-url origin "${SSH_URL}"
-
-git config --global user.name ${GH_COMMIT_AUTHOR}
-git config --global user.email ${GH_COMMIT_EMAIL}
-git remote -v
-
+git config credential.helper "store --file=.git/credentials"
+echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 bundle exec rake deploy

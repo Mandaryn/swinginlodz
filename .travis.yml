@@ -1,15 +1,16 @@
 language: ruby
 cache: bundler
 rvm:
-  - 2.3.1
+- 2.3.1
 branches:
   only:
-  - master # branch to build
+  - master
 env:
   global:
   - GH_COMMIT_AUTHOR="Travis CI"
   - GH_COMMIT_EMAIL=mandaryyyn@gmail.com
+  - secure: TbcFs11QOXMwUn9Vt9RIRtmmB1EEf0t+0xdJmq1v4kWzemrvQoar4bPfe4JVK5JRmrBIgP2m2RF2Eu/5+zlDm8CxQgV885i/FpV4x2y45jLeV41uZsNfKdruemM566+k3q4zF67g1PE1CE8HVUKRmxRz2Ogou361GdN7EA6Ajk+3tKfYcvZIpvXVfAWhDJoiopCHa/ipnLanQTpvN6WnTSpZ8xYq3RsZsNOSbbLLbePWW4oWbvqeJSPqf6dqOD3JPb9JOQLK0FcHhK5xnSx8QMJjZLlZEdPx0GgacBaJnKLdiRBfl2H4CNCqeXlpVcZVdJMqF/RlKbknIKJU3YQFegWfLKEtN0v8DOgIc2AZvMwpZx+DqRirImy+n2egxuBmYrwTHL43Wy+7JB5dKxrbduDTd2uwAVIGLhAtIywHs1eAoD/PO4VCZjvmwI3AG5S76Hfw/qJM9iLWrMDoLjsQrWxK8skwtE4hTDxyLwhNI32WmdYQx7PnYCcLEGC8GTAXz+diFs+8C/u0BfPHKAik3poilWU1DdpXJ998beId3Tgi9qhMhq22zlZMTBmNZJrN+Yun2S2JQmebLtK6p0ihXAmyXC5D/4834tyDgNf89sNEkVRgkoStI2RhK1ag78rK6moYatDIChtbKRJssDFB9sWExJmgksJRuyhSx6F8RPE=
 script:
-  - bundle exec rake travis:script
+- bundle exec rake travis:script
 after_success:
-  - bundle exec rake travis:after_success
+- bundle exec rake travis:after_success
