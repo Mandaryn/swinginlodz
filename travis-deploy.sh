@@ -20,5 +20,6 @@ git remote set-url origin "${SSH_URL}"
 
 git config --global user.name ${GH_COMMIT_AUTHOR}
 git config --global user.email ${GH_COMMIT_EMAIL}
+git remote -v
 
 bundle exec rake deploy
