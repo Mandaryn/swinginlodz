@@ -17,7 +17,7 @@ cat deploy_key
 
 HTTPS_URL=$(git config remote.origin.url)
 SSH_URL=${HTTPS_URL/https:\/\/github.com\//git@github.com:}
-echo $${SSH_URL}
+echo $SSH_URL
 git remote set-url origin "${SSH_URL}"
 
 git config --global user.name ${GH_COMMIT_AUTHOR}
