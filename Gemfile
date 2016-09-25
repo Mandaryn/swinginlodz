@@ -22,6 +22,6 @@ gem 'bootstrap-sass', '>= 3.3.6'
 # Font Awesome
 # gem 'font-awesome-sass'
 
-gem 'middleman-deploy', '~> 2.0.0.alpha'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'pry'
 gem 'rake'
