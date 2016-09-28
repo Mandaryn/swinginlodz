@@ -78,6 +78,10 @@ configure :build do
   activate :deploy do |deploy|
     deploy.deploy_method = :git
   end
+
+  after_build do |builder|
+    FileUtils.cp 'README.md', 'build'
+  end
 end
 
 helpers do
