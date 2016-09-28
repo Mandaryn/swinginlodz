@@ -1,27 +1,5 @@
-### Middleman v4 Front-end Starter Kit
-Middleman v4 starter kit template created for middleman front-end development.
-If you wonder about middleman please [check out here](https://middlemanapp.com/)
+[![CircleCI](https://circleci.com/gh/Mandaryn/swinginlodz/tree/master.svg?style=svg&circle-token=20008cfd52c0075c6f87ed82b713917b2dd350d7)](https://circleci.com/gh/Mandaryn/swinginlodz/tree/master)
 
-### Quick start
-`middleman init your_project_name --template=middleman-starter-kit`
+### Swing Zaloga page
 
-More information is [here](https://middlemanapp.com/advanced/project_templates/)
-
-### Warning
-This middleman kit build on [middleman v4](https://middlemanapp.com/basics/upgrade-v4/), so maybe some [extension](https://directory.middlemanapp.com/#/extensions/all) doesn't work. Please be careful.
-
-### What's Include
-Middleman start kit template basically build on HTML5 Boilerplate front-end
-template. Ready to use Rails assets file structure, Sass file structure.
-
-- Middleman v4
-- HAML
-- Sass
-- jQuery
-- Bootstrap
-- Font Awesome (CDN)
-- Editor Config
-- Simple sitemap helper
-- humans.txt
-- Open graph meta tags
-- Middleman Deploy
+Deployment available with CircleCI, just edit the file in github editor, commit to master branch and wait for the changes to appear in the swingzaloga.pl page.
