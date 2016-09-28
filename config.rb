@@ -72,7 +72,7 @@ configure :build do
   # GZIP text files
   # activate :gzip
 
-  activate :asset_host, host: 'http://swingzaloga.pl/'
+  activate :asset_host, host: 'http://swingzaloga.pl/assets'
 
   activate :deploy do |deploy|
     deploy.deploy_method = :git
