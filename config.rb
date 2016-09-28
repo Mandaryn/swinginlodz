@@ -61,6 +61,11 @@ end
 
 # Build Environment
 configure :build do
+  set :css_dir, 'assets/stylesheets'
+  set :js_dir, 'assets/javascripts'
+  set :images_dir, 'assets/images'
+  set :fonts_dir, 'assets/fonts'
+
   # Minify CSS on build
   activate :minify_css
 
@@ -73,20 +78,6 @@ configure :build do
   activate :deploy do |deploy|
     deploy.deploy_method = :git
   end
-end
-
-# Production Environment
-configure :production do
-
-  # Assets Pipeline Sets
-  set :css_dir, 'assets/stylesheets'
-  set :js_dir, 'assets/javascripts'
-  set :images_dir, 'assets/images'
-  set :fonts_dir, 'assets/fonts'
-
-  # Middleman Production dev server run code
-  # 'middleman server -e production'
-
 end
 
 helpers do
