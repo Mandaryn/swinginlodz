@@ -76,7 +76,6 @@ configure :build do
 
   activate :deploy do |deploy|
     deploy.deploy_method = :git
-    deploy.strategy = :submodule
   end
 end
 
