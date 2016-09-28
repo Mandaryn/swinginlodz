@@ -1,5 +1,5 @@
-ignore = dirty
 [submodule "build"]
   path = build
   url = https://github.com/Mandaryn/swinginlodz.git
   branch = gh-pages
+  ignore = dirty
