@@ -61,7 +61,7 @@ end
 
 # Build Environment
 configure :build do
-  set :base_url, "http://mandaryn.github.io/swinginlodz/"
+  set :base_url, "http://swingzaloga.pl/"
 
   # Minify CSS on build
   activate :minify_css
@@ -72,7 +72,7 @@ configure :build do
   # GZIP text files
   # activate :gzip
 
-  activate :asset_host, host: 'http://mandaryn.github.io/swinginlodz/'
+  activate :asset_host, host: 'http://swingzaloga.pl/'
 
   activate :deploy do |deploy|
     deploy.deploy_method = :git
