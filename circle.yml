@@ -3,6 +3,4 @@ test:
     - git config user.name "circleci"
     - git config user.email "circleci@swingzaloga.pl"
   override:
-    - bundle exec middleman build
-  post:
     - bundle exec middleman deploy
