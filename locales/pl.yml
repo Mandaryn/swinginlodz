@@ -1,5 +1,8 @@
 ---
 pl:
+  date:
+    formats:
+      event: "%-d %B"
   header:
     classes: "Zajęcia"
     parties: "Potańcówki"
