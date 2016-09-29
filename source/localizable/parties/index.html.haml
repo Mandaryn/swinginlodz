@@ -13,13 +13,14 @@
     .col-md-4.col-sm-6
       .flag{ class: ("highlight" if party.highlight) }
         %h3.h3
-          = party.name
+          = link_to party.name, party.url
           %small
             %i.fa.fa-calendar
             = I18n.l(Date.parse(party.date), format: :event)
             %i.fa.fa-clock-o
             = party.time
         %p
-          = image_tag(party.photo, class: "img-responsive")
+          = link_to party.url do
+            - image_tag(party.photo, class: "img-responsive")
         %p
           = Kramdown::Document.new(party.description).to_html
