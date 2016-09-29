@@ -6,13 +6,11 @@
 
 .row
   - Array.wrap(data.send(I18n.locale).members.members).each_with_index do |member, index|
-    - if (index % 4).zero?
-      .clearfix.visible-lg-block
     - if (index % 3).zero?
       .clearfix.visible-md-block
     - if (index % 2).zero?
       .clearfix.visible-sm-block
-    .col-lg-3.col-md-4.col-sm-6
+    .col-md-4.col-sm-6
       .flag
         %h3.h3
           = member.name
