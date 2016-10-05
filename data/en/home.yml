@@ -3,8 +3,11 @@ banner:
   header: Join us!
   links:
     -
-      link: "http://localhost:4567/classes/"
-      text: "each wednesday at 19:00"
+      link: "en/classes"
+      text: "on classes"
+    -
+      link: "en/parties"
+      text: "on parties"
     -
       link: "https://www.youtube.com/channel/UC-EjMrhJCy_-1UZaRO3hFXw"
       text: "see how we dance"
