@@ -16,7 +16,7 @@
           = link_to party.name, party.url
           %small
             %i.fa.fa-calendar
-            = I18n.l(Date.parse(party.date), format: :event)
+            = I18n.l(Date.parse(party.date), format: :event) rescue party.date
             %i.fa.fa-clock-o
             = party.time
         %p
