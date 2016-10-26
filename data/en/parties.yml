@@ -2,16 +2,6 @@
 parties:
   -
     url: nil
-    name: "Wprawki w szafie!"
-    date: "2016-10-16"
-    time: "20:30 – 24:00"
-    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14716321_10154608046290477_4239722664904746349_n.jpg?oh=4ee63e2942c3f55d85a5d97d674ca0d5&oe=58A82D07"
-    description: |
-      Wprawki w "Szafie" :) 
-
-      Wstęp wolny.
-  -
-    url: nil
     name: "Praktis w beczce!"
     date: "each Wednesday"
     time: "21:30 – 12:00"
@@ -36,4 +26,24 @@ parties:
 
       Solo Jazz & Lindy Hop workshops give you 6,5h of classes in total. More over Łódź gives you industrial and fabrics atractions!
 
-      Workshops (6,5h) and party cost 25€ for EARLY Birds till 7.10, after that 30€.
+      Workshops (6,5h) and party cost 30€.
+  -
+    url: "https://www.facebook.com/events/1092232870858302"
+    name: "Potańcówka z muzyką na żywo!"
+    date: "2016-10-29"
+    time: "20:00"
+    venue: "Przerwa, Wólczańska 128/134"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14495371_10154644739869228_4966814055376583713_n.jpg?oh=d6485974154feba89181c220b855cf8e&oe=58ACF1D4"
+    highlight: true
+    description: |
+      Z okazji warsztatów SWING FABRICS vol.1 zapraszamy na potańcówkę z muzyką na żywo.
+      
+      Po raz pierwszy, specjalnie dla nas zagra Piotr Krzemiński Quartet, a stary swing przeniesie nas na roztańczone ulice Nowego Orleanu.
+      
+      Przybywajcie wszyscy, bo będzie to muzyczno-taneczne wydarzenie, które spełnia nasze swingowe marzenia!
+      
+      Podeszwy na parkiecie zdzierać będą z nami instruktorzy: Marie Vau oraz Patrick Berger(Niemcy) a także Kamila i Waldek Jankowscy (PL, Swing Craze), no i nasi wspaniali goście z całej Polski. 
+      
+      Do zobaczenia!
+      
+      Wstęp 25zł, dla uczestników warsztatów wstęp wolny.

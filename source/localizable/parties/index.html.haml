@@ -14,13 +14,18 @@
       .flag{ class: ("highlight" if party.highlight) }
         %h3.h3
           = link_to party.name, party.url
+        %p
+          = link_to party.url do
+            - image_tag(party.photo, class: "img-responsive")
+        %h3.h3
           %small
             %i.fa.fa-calendar
             = I18n.l(Date.parse(party.date), format: :event) rescue party.date
             %i.fa.fa-clock-o
             = party.time
-        %p
-          = link_to party.url do
-            - image_tag(party.photo, class: "img-responsive")
+          - if party.venue
+            %small
+              %i.fa.fa-map-marker
+              = party.venue
         %p
           = Kramdown::Document.new(party.description).to_html
