@@ -1,22 +1,11 @@
 ---
 parties:
   -
-    url: nil
-    name: "Praktis w beczce!"
-    date: "each Wednesday"
-    time: "21:30 – 12:00"
-    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/10155786_286087348182467_428973026165769579_n.jpg?oh=4c987c49a1178bb3406b979d168d31f7&oe=58A677F6"
-    description: |
-      Social dancing in "Z innej beczki" :) 
-
-      Free entry.
-  -
     url: "https://www.facebook.com/events/103264656801128/"
     name: "Swing Fabrics vol.1"
     date: "2016-10-28"
     time: "20:00 - niedziela"
     photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/14241440_309298949435182_7206336596890741006_o.jpg"
-    highlight: true
     description: |
       Who wants sew swinging patchwork with us? 
       We are starting from jazz fabric!
@@ -34,7 +23,6 @@ parties:
     time: "20:00"
     venue: "Przerwa, Wólczańska 128/134"
     photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14495371_10154644739869228_4966814055376583713_n.jpg?oh=d6485974154feba89181c220b855cf8e&oe=58ACF1D4"
-    highlight: true
     description: |
       Z okazji warsztatów SWING FABRICS vol.1 zapraszamy na potańcówkę z muzyką na żywo.
       
@@ -47,3 +35,27 @@ parties:
       Do zobaczenia!
       
       Wstęp 25zł, dla uczestników warsztatów wstęp wolny.
+  -
+    url: "https://www.facebook.com/events/703249199831879/"
+    name: "Drugie urodziny lindy w Łodzi"
+    date: "2016-12-03"
+    time: "20:00"
+    venue: "Łódź"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/11222336_333953170303093_6732915555426749087_o.jpg"
+    highlight: true
+    description: |
+      Aby upamiętnić pierwsze swingowe kroki stawiane w prexerze a przede wszystkim pierwsza "potańcówę" w 2014 roku, 3-4.12. chcemy zebrać się wspólnie, zaprosić do tańca wszystkich naszych lindy hopowych przyjaciół i sympatyków i poświetować w miłej atmosferze, dodając sobie energii do dalszych akcji..
+
+      Oprócz sobotniej potancówki z muzą na żywo, w ciągu dnia planujemy warsztaty Autentic Jazzu (sb) oraz Tap Dance (nd), leniwe Tea Party, ogladnie czarno-białego filmu z okresu Ery Swinga oraz nieformalne wycieczki po łódzkich miejscach, pogaduchy i inne spontany.
+
+      Wybiera się do nas już paru delegatów. Zapowiedzieli się nasi znajomi z Krakowa, Opola, będzie prawdopodobnie i Trójmiasto! Jeśli chcecie się dołączyć.. save the date:)
+  -
+    url: nil
+    name: "Praktis w beczce!"
+    date: "each Wednesday"
+    time: "21:30 – 12:00"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/10155786_286087348182467_428973026165769579_n.jpg?oh=4c987c49a1178bb3406b979d168d31f7&oe=58A677F6"
+    description: |
+      Social dancing in "Z innej beczki" :) 
+
+      Free entry.
