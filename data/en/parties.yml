@@ -1,6 +1,44 @@
 ---
 parties:
   -
+    url: nil
+    name: "Praktis w beczce!"
+    date: "each Wednesday"
+    time: "21:30 – 12:00"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/10155786_286087348182467_428973026165769579_n.jpg?oh=4c987c49a1178bb3406b979d168d31f7&oe=58A677F6"
+    description: |
+      ATTENTION! 02-11-2016 cancelled!
+
+      Social dancing in "Z innej beczki" :) 
+
+      Free entry.
+  -
+    url: "https://www.facebook.com/events/1192424544136811/"
+    name: "Sweet & Hot Jazzband w Żarty Żartami"
+    date: "2016-11-04"
+    time: "20:00"
+    venue: "Żarty Żartami"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/14560147_1696804153894763_3472348985486905846_o.jpg"
+    description: |
+      Szanowni!
+
+      Z przyjemnością informujemy, że Sweet & Hot Jazzband otwiera koncertowy listopad w Żartach! Popłyną dixielandowe nuty i na parkiecie zapanuje swingowe szaleństwo :-) Przed koncertem - o 20:00 - dla wszystkich chętnych taneczne wprawki swingowe prowadzone przez ekipę Lindy Hop in Lodz :)
+
+      LINDY HOP to taniec w parach popularny w Stanach w latach 30 i 40, który teraz króluje na imprezach w stylu retro. Opiera się o rytmiczny bounce i improwizację i oddaje on charakter "ery swingu" – jest intensywny i dynamiczny, choć na początku, na wprawkach, będziemy go tańczyć do spokojniejszej muzyki.
+  -
+    url: nil
+    name: "Wprawki w Cafe Wolność"
+    date: "2016-11-06"
+    time: "19:30"
+    venue: "Cafe Wolność"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/14902734_10153856164631987_8923800841563219956_o.jpg"
+    description: |
+      Już od 2014 spotykamy się niedzielami, żeby posłuchać starego dobrego swinga, poznać się, ale przede wszystkim potańczyć! Tych, co chcą poznać lindy hopa w parach, który w pierwszą niedzielę miesiąca królować będzie na parkiecie Cafe Wolność, wprawiamy wcześniej w tańcu! Razem ze Swing Załogą możecie nauczyć się podstaw lindy i spędzić wieczór z fajnymi ludźmi. Nie trzeba przychodzić z partnerem – chętni do tańca na pewno znajdą się na miejscu!
+      
+      LINDY HOP to taniec w parach popularny w Stanach w latach 30 i 40, który teraz króluje na imprezach w stylu retro. Opiera się o rytmiczny bounce i improwizację i oddaje on charakter "ery swingu" – jest intensywny i dynamiczny, choć na początku, na wprawkach, będziemy go tańczyć do spokojniejszej muzyki.
+      
+      Przyjdźcie do Cafe już 6.11.2016 aby spędzić wyjątkowy wieczór przy muzyce granej z płyt winylowych i napić się przygotowanych przez barmaów baru kultowych już w Cafe Wolność drinków! :)
+  -
     url: "https://www.facebook.com/events/703249199831879/"
     name: "Drugie urodziny lindy w Łodzi"
     date: "2016-12-03"
@@ -14,15 +52,4 @@ parties:
       Oprócz sobotniej potancówki z muzą na żywo, w ciągu dnia planujemy warsztaty Autentic Jazzu (sb) oraz Tap Dance (nd), leniwe Tea Party, ogladnie czarno-białego filmu z okresu Ery Swinga oraz nieformalne wycieczki po łódzkich miejscach, pogaduchy i inne spontany.
 
       Wybiera się do nas już paru delegatów. Zapowiedzieli się nasi znajomi z Krakowa, Opola, będzie prawdopodobnie i Trójmiasto! Jeśli chcecie się dołączyć.. save the date:)
-  -
-    url: nil
-    name: "Praktis w beczce!"
-    date: "each Wednesday"
-    time: "21:30 – 12:00"
-    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/10155786_286087348182467_428973026165769579_n.jpg?oh=4c987c49a1178bb3406b979d168d31f7&oe=58A677F6"
-    description: |
-      ATTENTION! 02-11-2016 cancelled!
-
-      Social dancing in "Z innej beczki" :) 
-
-      Free entry.
+  
