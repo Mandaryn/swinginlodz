@@ -7,7 +7,7 @@ layout: false
   - pages.each do |page|
     %url
       %loc
-        =page.destination_path.gsub("/index.html", "")
+        = "http://swingzaloga.pl/" + page.destination_path.gsub("/index.html", "")
       %priority
         0.7
       %changefreq
