@@ -1,0 +1,16 @@
+---
+layout: false
+---
+- pages = sitemap.resources.find_all{ |page| page.source_file.match(/html\.haml/) }
+!!! XML
+%urlset{ :xmlns => "http://www.sitemaps.org/schemas/sitemap/0.9" }
+  - pages.each do |page|
+    %url
+      %loc
+        =page.destination_path.gsub("/index.html", "")
+      %priority
+        0.7
+      %changefreq
+        "daily"
+      %lastmod
+        = Time.now
