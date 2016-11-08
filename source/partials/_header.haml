@@ -23,11 +23,9 @@
       = link_to "Swing Załoga", "index.html", class: "navbar-brand", locale: I18n.locale
     .collapse.navbar-collapse#main_navbar
       %ul.nav.navbar-nav
-        %li{ nav_active(%r{^classes/.*}) }= link_to t(:classes, scope: :header), "classes/index.html", locale: I18n.locale
-        %li{ nav_active(%r{^members/.*}) }= link_to t(:members, scope: :header), "members/index.html", locale: I18n.locale
-        %li{ nav_active(%r{^parties/.*}) }= link_to t(:parties, scope: :header), "parties/index.html", locale: I18n.locale
-        %li{ nav_active(%r{^contact/.*}) }= link_to t(:contact, scope: :header), "contact/index.html", locale: I18n.locale
-        %li{ nav_active(%r{^past/.*}) }= link_to t(:past, scope: :header), "past/index.html", locale: I18n.locale
+        - %i(classes members parties contact past).each do |path_key|
+          %li{ nav_active(%r{^#{t(path_key, scope: :paths)}/.*}) }
+            = link_to t(path_key, scope: :header), translated_url(path_key), locale: I18n.locale
   - if t("alert").present?
     .row.alert.alert-warning
       %p= t("alert.message")

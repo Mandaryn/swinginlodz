@@ -20,3 +20,9 @@ en:
       header: "Past events"
       text:
         - "Udało nam się przeprwadzić wiele warsztatów i jeszcze więcej imprez. Zapraszamy do zapoznania sie z naszymi przeszłymi dokonaniami:"
+  paths:
+    classes: "classes"
+    contact: "contact"
+    members: "crew"
+    parties: "parties"
+    past: "past"

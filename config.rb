@@ -102,4 +102,14 @@ helpers do
   def nav_active(path)
     current_page.path.match(path) ? { class: "active" } : { class: current_page.path }
   end
+
+  def translated_url(path_key)
+    I18n.t(path_key, scope: :paths).tap do |path|
+      path.prepend("#{I18n.locale}/") unless default_locale?
+    end
+  end
+
+  def default_locale?
+    I18n.locale == I18n.default_locale
+  end
 end

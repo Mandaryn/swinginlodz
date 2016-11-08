@@ -47,3 +47,9 @@ pl:
       header: "Zrobione"
       text:
         - "Udało nam się przeprwadzić wiele warsztatów i jeszcze więcej imprez. Zapraszamy do zapoznania sie z naszymi przeszłymi dokonaniami:"
+  paths:
+    classes: "zajecia"
+    contact: "kontakt"
+    members: "zaloga"
+    parties: "wydarzenia"
+    past: "zrobione"
