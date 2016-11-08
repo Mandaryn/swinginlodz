@@ -1,0 +1,19 @@
+%h1.h1
+  = t(:header, scope: "pages.past")
+
+- t(:text, scope: "pages.past").each do |paragraph|
+  %p= paragraph
+
+.row
+  - Array.wrap(data.send(I18n.locale).past.past).each_with_index do |past, index|
+    .col-md-12
+      %h3.h3
+        = past.name
+        %small= past.date
+    .col-md-8
+      %p= Kramdown::Document.new(past.description).to_html
+    .col-md-4
+      = link_to past.url do
+        - image_tag(past.photo, class: "img-responsive")
+
+          

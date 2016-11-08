@@ -9,6 +9,7 @@ pl:
     members: "Załoga"
     contact: "Kontakt"
     fabricks: "Swingowe Łaty"
+    past: "Zrobione"
   footer:
     created_by: "Strona stworzona przez Mandaryna"
     find_us_on: "Znajdź nas na:"
@@ -40,3 +41,7 @@ pl:
       text:
         - >
           Kroki poznane na warsztatach i reguarnych zajęciach koniecznie trzeba później przećwiczyć na "socjalnym" parkiecie.   Znajdziecie nas na regularnych praktisach środowych oraz Niedzielnych Wprawkach Swingowych. Raz w miesiącu tradycyjnie wyprawiamy większą imprezę, na którą nierzadko wpadają tancerze z innych miast. Wszystkich gości można nie tylko podpatrzeć w ruchu, ale i "obtańcować" 😉.
+    past:
+      header: "Zrobione"
+      text:
+        - "Udało nam się przeprwadzić wiele warsztatów i jeszcze więcej imprez. Zapraszamy do zapoznania sie z naszymi przeszłymi dokonaniami:"
