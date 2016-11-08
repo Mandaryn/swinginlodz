@@ -87,16 +87,13 @@ end
 
 helpers do
   def url_for(*args)
-    super.sub(%r{^/}, "")
+    super.sub(%r{^/}, "").sub(%r{/$}, "")
   end
 
   def change_locale_link(locale)
-    link_to(locale.to_s.upcase, unlocalize_current_path, locale: locale)
-  end
-
-  def unlocalize_current_path
-    locale_without_first_slash = extensions[:i18n].path_root(I18n.locale).sub(%r{^/}, "")
-    current_page.path.sub(locale_without_first_slash, "")
+    localized_path_key = current_page.target_resource.path.sub(%r{^localizable}, "")
+    new_locale_path = extensions[:i18n].localized_path(localized_path_key, locale).sub(%r{/$}, "")
+    link_to(locale.to_s.upcase, new_locale_path)
   end
 
   def nav_active(path)

@@ -24,7 +24,7 @@
     .collapse.navbar-collapse#main_navbar
       %ul.nav.navbar-nav
         - %i(classes members parties contact past).each do |path_key|
-          %li{ nav_active(%r{^#{t(path_key, scope: :paths)}/.*}) }
+          %li{ nav_active(%r{/#{t(path_key, scope: :paths)}/.*}) }
             = link_to t(path_key, scope: :header), translated_url(path_key), locale: I18n.locale
   - if t("alert").present?
     .row.alert.alert-warning
