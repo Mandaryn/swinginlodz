@@ -1,7 +1,5 @@
 ---
 pl:
-  alert:
-    message: "We środę 16.11.2016 oraz w niedzielę 20.11.2016 nie będzie potańcówek bo wiekszość załogi jedzie na Dragon Swing!"
   date:
     formats:
       event: "%-d %B"

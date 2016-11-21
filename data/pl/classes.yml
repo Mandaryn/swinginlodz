@@ -1,13 +1,12 @@
 ---
-classes:
+classes: &classes_pl
   -
-    name: "Lindy Hop, gr. początkująca UDZ"
+    name: "Lindy Hop, beginners UDZ"
     leaders: "Zuzia i Wojtek"
-    weekday: "Wtorek"
-    time: "21:20 - 22:30"
+    weekday: "Czwartek"
+    time: "19:10 - 20:10"
     description:
       - "Regularne zajęcia Lindy Hopa w szkole tańca UDZ."
-      - "Start 27.09."
       - "Zajęcia trwają godzinę, ale przedłużać będziemy je o 10-15 min, tak żeby można było spokojnie przećwiczyć wszystko."
       - >
         Cennik: <a href="http://www.urbandance.pl/cennik">http://www.urbandance.pl/cennik</a>.
@@ -15,29 +14,27 @@ classes:
       - "Zapisy i płatności: biuro@urbandance.pl, recepcja czynna cały tydzień w godz. 14:30-22:00, Tel. 695-385-254"
     highlight: true
   -
-    name: "Lindy Hop, gr. początkująca ŁDK"
+    name: "Lindy Hop, beginners+ UDZ"
+    leaders: "Zuzia i Wojtek"
+    weekday: "Wtorek"
+    time: "21:20 - 22:30"
+    description:
+      - "Regularne zajęcia Lindy Hopa w szkole tańca UDZ dla już tańczących."
+      - "Zajęcia trwają godzinę, ale przedłużać będziemy je o 10-15 min, tak żeby można było spokojnie przećwiczyć wszystko."
+      - >
+        Cennik: <a href="http://www.urbandance.pl/cennik">http://www.urbandance.pl/cennik</a>.
+      - "Adres: ul. Zachodnia 85."
+      - "Zapisy i płatności: biuro@urbandance.pl, recepcja czynna cały tydzień w godz. 14:30-22:00, Tel. 695-385-254"
+  -
+    name: "Lindy Hop, beginners++ ŁDK"
     leaders: "Zuzia i Wojtek"
     weekday: "Czwartek"
     time: "20:45 - 22:00"
     description:
-      - "Regularne zajęcia Lindy Hopa w Łódzkim Domu Kultury."
-      - "Start 06.10."
+      - "Regularne zajęcia Lindy Hopa w Łódzkim Domu Kultury dla już tańczących."
       - "Zajęcia trwają 1,15 h."
       - "Wymagana jest tutaj zmiana obuwia, koniecznie biała podeszwa."
-      - "Cennik: 70 zł za 4 miesiąc, czyli 4 zajęcia. Jednorazowe zajęcia 20 zł."
       - "Adres: Łódzki Dom Kultury, ul. Traugutta 18. Informacja o sali - w recepcji ŁDK."
-      - >
-        Zapisy i płatności: <a href="oia@ldk.lodz.pl">oia@ldk.lodz.pl</a>, telefon: 42 797 326 227. Możliwość płatności gotówką/kartą na miejscu oraz przelew.
-  -
-    name: "Beginners+"
-    leaders: "Zuzia i Wojtek, xxxx"
-    weekday: "Środa"
-    time: "18:45 - 20:15"
-    description:
-      - "Zajęcia warsztatowe grupa Beginners +."
-      - "Zajęcia trwają 1,5h, odbywają się w co drugą środę."
-      - "Start 05.10. Terminy warsztatów: 05.10., 19.10., 02.11., 16.11., 30.11., 14.12."
-      - "Adres zajęć: sala YMCA, Moniuszki 4A."
       - >
         Zapisy mailowo: <a href="swinginlodz@gmail.com">swinginlodz@gmail.com</a>.
   -

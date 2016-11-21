@@ -4,7 +4,7 @@
 - t(:text, scope: "pages.classes").each do |paragraph|
   %p= paragraph
 .row
-  - Array.wrap(data.send(I18n.locale).classes.classes).each do |klass|
+  - Array.wrap(data.send(:pl).classes.classes).each do |klass|
     .col-lg-3.col-md-4.col-sm-6
       .flag{ class: ("highlight" if klass.highlight) }
         %h3.h3
