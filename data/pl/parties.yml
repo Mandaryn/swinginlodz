@@ -1,5 +1,5 @@
 ---
-parties:
+parties: &parties_pl
   -
     url: nil
     name: "Praktis w beczce!"
@@ -11,16 +11,30 @@ parties:
       Praktis w "Z innej beczki"
 
       Wstęp wolny.
+  # -
+  #   url: nil
+  #   name: "Praktis w Szafie!"
+  #   date: "2016-11-13"
+  #   time: "20:00 - 23:00"
+  #   photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14716321_10154608046290477_4239722664904746349_n.jpg?oh=6c85f2c2ff61e1cbf3fbde6e1a5f2634&oe=58CFBA07"
+  #   description: |
+  #     Praktis w "Szafie"
+  #
+  #     Zapraszamy wszystkich nowych i starych adeptów tańca Lindy Hop do wspólnej zabawy.
+  #
+  #     Wstęp wolny.
   -
-    url: nil
-    name: "Praktis w Szafie!"
-    date: "2016-11-13"
-    time: "20:00 - 23:00"
-    photo: "https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14716321_10154608046290477_4239722664904746349_n.jpg?oh=6c85f2c2ff61e1cbf3fbde6e1a5f2634&oe=58CFBA07"
+    url: "https://www.facebook.com/events/1778144822437399/"
+    name: "Niedzielny swing social w Poczekalni"
+    date: "2016-11-27"
+    time: "19:00 - 22:00"
+    photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/15137532_349161682115575_4006290889964152026_o.jpg"
     description: |
-      Praktis w "Szafie" 
+      Niedzielny wieczór to dobra pora, żeby poćwiczyć lindy hopa! 
 
-      Zapraszamy wszystkich nowych i starych adeptów tańca Lindy Hop do wspólnej zabawy.
+      Ekipa Swing Załogi oraz Cafe Bar Poczekalnia zapraszają na social dancing, na którym szlifować będziemy swój taneczny warsztat a także poznawać znajomych ze swingowego kursu. Mile widziani wszyscy tancerze oraz ci którzy chcieliby zacząć tańczyć.
+
+      z głośników poleci muzyka z czasów Złotej Ery Swinga ale w lokalu nie obowiązuje wcale prohibicja. Przy barze możecie zdrowo i smacznie zjeść, napić się kawy, herbaty, polskiego wina i piwa regionalnego dostępnego w wielu rodzajach.
 
       Wstęp wolny.
   -

@@ -1,17 +1,3 @@
 ---
 past:
-  -
-    url: "https://www.facebook.com/events/103264656801128/"
-    name: "Swing Fabrics"
-    date: "29-30.11.2016"
-    photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/14940175_336607296704347_4561661854490629644_o.jpg"
-    description: |
-      Zaczęliśmy bardzo przytulną potańcówką w piątek, którą odwiedzili nasi instruktorzy zmierzający z daleka (Patrick Berger i Marie Vau) , i która przeciągnęła się do drugiej,  pozostawiając  uczestnikom jedynie kilka godzin snu do porannej „audycji”, w trakcie której instruktorzy podzielili wszystkich na dwie grupy zaawansowania.
-      
-      Potem już od 11.00 zabraliśmy się do pracy, szlifując swivle z Kamilą i Waldkiem oraz uśmiechnięte rockstepy oraz obroty z Patrickiem i Marie. Po przerwie obiadowej zabraliśmy się za jazz solo! Nie było łatwo ale prawdziwe wyzwania ponoć czekały na nas jeszcze następnego dnia. A to przecież dopiero połowa warsztatowego dnia bo wieczorem czekała nas potańcówka z muzyką na żywo!
-      
-      Rozgrzaliśmy parkiet pod wodzą naszej lokalnej instruktorki, która poprowadziła „taster” i nauczyła chętnych fragmentu jazzowego układu „Tranky Doo”.  Chwilę przed 21.00 na scenie pojawili się muzycy, którzy wprawili w swing wszystkich gości warsztatów a także odwiedzających nas tancerzy z Warszawy. Zespół zaskakiwał nas przez kolejne sety, prezentując jazzowe standardy, idealne do lindy hopa. Nowe miejsce o industrialnym klimacie okazało się idealnie dopełniać klimat. W szalonych tańcach pobiliśmy rekord z poprzedniej nocy...
-      
-      Ale nie ma przebacz, swingouty same się nie zrobią, toteż od rana znów zaczęliśmy pracować nad swoim swing-skillem. Marie i Patrick już po pierwszej godzinie jazzu wycisnęli z wszystkich soki dlatego trzeba było znaleźć sposób na dodanie sobie mocy na warsztatach… W spontanicznym zewie zaprosiliśmy do sali tanecznej młodego klarnecistę grającego na skrzyżowaniu Piotrkowskiej i Traugutta. Dominik zagrał Vabank – utwór z polskiego filmu o tym samym tytule, który częściowo kręcony był na ulicach Łodzi - i porwał oczywiście tym samym do tańca.
-
-      Instruktorzy byli zadowoleni z postępów fabricsowych uczestników, ci zaś wracali do normalności zainspirowani i pełni entuzjazmu, także nie możemy doczekać się przyszłej edycji i dziękujemy wszystkim, którzy przyczynili się do tego szytego swingiem weekendu!
+  <<: *past_pl

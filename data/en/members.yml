@@ -1,16 +1,3 @@
 ---
 members:
-  -
-    name: "Zuzanna Bociąga"
-    photo: "assets/images/members/zuza.jpg"
-    description: "Zuzanna - jest leaderką łódzkiej sceny lindy hopowej i organizatorką eventów Swing Załogi (potańcówek i warsztatów). Od 2014 promuje lindy hop wraz z całą amerykańską kulturą swingową lat 30. i 40. Jest dyplomowaną instruktorką i absolwentką Pedagogiki Tańca, prowadzi zajęcia z lindy oraz authentic jazzu. Oprócz tego bierze udział we wszelkich możliwych festiwalach w Polsce i w Europie, włączając się w organizowanie tychże, tak żeby móc jak najwięcej wiedzy przemycić do łódzkiej społeczności. Swing to dla niej przede wszystkim bycie częścią społeczności, która dzieli się wzajemnie radością ze wspólnego tańca, rozumie muzykę jazzową i kontekst lindy hopa. W Swing Załodze pragnie kontynuować atmosferę z Savoya: mimo różnorodności, tancerze mieli wspólny język, który ich łączył."
-
-  -
-    name: "Wojciech Andryszek"
-    photo: "assets/images/members/wojtek.jpg"
-    description: >
-      Pierwszy raz Lindy Hop widzialem w "daleko blisko'' poczatkowo byłem sceptycznie nastawiony do tego tanca bo nie lubiałem tego typu muzyki ale ekipa tam tancząca odrazu wyciągneła mnie na parkiet i pokazała podstawowe kroki, tak to sie zaczeło.Najbardziej podoba mi sie w swingu taneczna"wolność" czyli improwizacja. Moja inspiracja by dalej tanczyć jest chec rozwijania siebie oraz przekazywania swojej wiedzy innym ludziom ktorzy sa pozytywnie zakreceni tak jak ja.
-  -
-    name: "Piotr Marciniak (Mandaryn)"
-    photo: "assets/images/members/mandaryn.jpg"
-    description: "Piotrek tańczy od małego, zaczął od tańców towarzyskich, potem zapałał entuzjazmem do tańców ludowych, a w między czasie spróbował też tańców irlandzkich i salsy. Obecnie jego pasją stał się lindy hop, pozwalający odkryć na nowo radość z tańca i dający niespożyte pokłady energi. Nabiera szlifów zarówno w Łódzi jak i na licznych warsztatach i festiwalach. Wszędzię stara się podłapać nowe kroki w tajniki wiedzy swingowej, i przywieść je do łodzi aby podzielić się z łódzką ekipą."
+  <<: *members_pl

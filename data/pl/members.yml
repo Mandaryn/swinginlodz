@@ -1,5 +1,5 @@
 ---
-members:
+members: &members_pl
   -
     name: "Zuzanna Bociąga"
     photo: "assets/images/members/zuza.jpg"
