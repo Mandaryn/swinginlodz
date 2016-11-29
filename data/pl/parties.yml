@@ -112,7 +112,7 @@ parties: &parties_pl
     date: "2016-12-04"
     time: "15:00"
     venue: "Czekolada - Retro Cafe, ul. Moniuszki 11"
-    photo: "https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/11222336_333953170303093_6732915555426749087_o.jpg"
+    photo: "http://www.retrocafe.net.pl/images/phocagallery/Wnetrza/thumbs/phoca_thumb_l_wnetrza_03.JPG"
     highlight: true
     description: |
       Niedzielne leniwe tea party w stylowym mieszkaniu z końca XIX. W ofercie zacne napoje (kawy, czekolady, herbaty czy grzańce) z kawałkiem dobrego ciasta w przytulnej domowej atmosferze.
