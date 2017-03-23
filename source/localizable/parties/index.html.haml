@@ -20,12 +20,12 @@
         %h3.h3
           %small
             %i.fa.fa-calendar
-            = I18n.l(Date.parse(party.date), format: :event) rescue party.date
+            = I18n.l(Date.parse(party.start), format: :event) rescue party.start
             %i.fa.fa-clock-o
-            = party.time
+            = I18n.l(Time.parse(party.start), format: "HH:MM") rescue party.start
           - if party.venue
             %small
               %i.fa.fa-map-marker
               = party.venue
         %p
-          = Kramdown::Document.new(party.description).to_html
+          = Kramdown::Document.new(party.description).to_html rescue party.description
