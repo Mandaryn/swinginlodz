@@ -22,7 +22,7 @@
             %i.fa.fa-calendar
             = I18n.l(Date.parse(party.start), format: :event) rescue party.start
             %i.fa.fa-clock-o
-            = I18n.l(Time.parse(party.start), format: "HH:MM") rescue party.start
+            = I18n.l(Time.parse(party.start), format: "%H:%M") rescue party.start
           - if party.venue
             %small
               %i.fa.fa-map-marker
