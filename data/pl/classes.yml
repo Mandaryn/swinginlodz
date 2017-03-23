@@ -1,51 +1,44 @@
 ---
 classes: &classes_pl
   -
-    name: "Lindy Hop, beginners UDZ"
+    name: "Lindy Hop, intermediate UDZ"
     leaders: "Zuzia i Wojtek"
-    weekday: "Czwartek"
-    time: "19:10 - 20:10"
+    weekday: "Wtorek"
+    time: "21.20-22.20"
     description:
       - "Regularne zajęcia Lindy Hopa w szkole tańca UDZ."
-      - "Zajęcia trwają godzinę, ale przedłużać będziemy je o 10-15 min, tak żeby można było spokojnie przećwiczyć wszystko."
       - >
         Cennik: <a href="http://www.urbandance.pl/cennik">http://www.urbandance.pl/cennik</a>.
       - "Adres: ul. Zachodnia 85."
-      - "Zapisy i płatności: biuro@urbandance.pl, recepcja czynna cały tydzień w godz. 14:30-22:00, Tel. 695-385-254"
-    highlight: true
+      - "Zapisy i płatności:"
+      - >
+        <a href="mailto:biuro@urbandance.pl">biuro@urbandance.pl</a>
+      - "Tel. 695-385-254"
+  -
+    name: "Charleston, beginner UDZ"
+    leaders: "Zuzia i Wojtek"
+    weekday: "Czwartek"
+    time: "18:05 - 19:05"
+    description:
+      - "Regularne zajęcia charlstona w parach w szkole tańca UDZ."
+      - >
+        Cennik: <a href="http://www.urbandance.pl/cennik">http://www.urbandance.pl/cennik</a>.
+      - "Adres: ul. Zachodnia 85."
+      - "Zapisy i płatności:"
+      - >
+        <a href="mailto:biuro@urbandance.pl">biuro@urbandance.pl</a>
+      - "Tel. 695-385-254"
   -
     name: "Lindy Hop, beginners+ UDZ"
     leaders: "Zuzia i Wojtek"
-    weekday: "Wtorek"
-    time: "21:20 - 22:30"
+    weekday: "Czwartek"
+    time: " 19:10 - 20:10"
     description:
-      - "Regularne zajęcia Lindy Hopa w szkole tańca UDZ dla już tańczących."
-      - "Zajęcia trwają godzinę, ale przedłużać będziemy je o 10-15 min, tak żeby można było spokojnie przećwiczyć wszystko."
+      - "Regularne zajęcia Lindy Hopa w szkole tańca UDZ."
       - >
         Cennik: <a href="http://www.urbandance.pl/cennik">http://www.urbandance.pl/cennik</a>.
       - "Adres: ul. Zachodnia 85."
-      - "Zapisy i płatności: biuro@urbandance.pl, recepcja czynna cały tydzień w godz. 14:30-22:00, Tel. 695-385-254"
-  -
-    name: "Lindy Hop, beginners++ ŁDK"
-    leaders: "Zuzia i Wojtek"
-    weekday: "Czwartek"
-    time: "20:45 - 22:00"
-    description:
-      - "Regularne zajęcia Lindy Hopa w Łódzkim Domu Kultury dla już tańczących."
-      - "Zajęcia trwają 1,15 h."
-      - "Wymagana jest tutaj zmiana obuwia, koniecznie biała podeszwa."
-      - "Adres: Łódzki Dom Kultury, ul. Traugutta 18. Informacja o sali - w recepcji ŁDK."
+      - "Zapisy i płatności:"
       - >
-        Zapisy mailowo: <a href="swinginlodz@gmail.com">swinginlodz@gmail.com</a>.
-  -
-    name: "Grupa Masters"
-    leaders: "Zuzia i Bartek"
-    weekday: "Środa"
-    time: "18:30 – 21.30"
-    description:
-      - "Zajęcia warsztatowe grupa Masters."
-      - "Zajęcia trwają 3 h, odbywają się w co drugą środę."
-      - "Start 12.10. Terminy warsztatów: 12.10., 26.10., 09.11., 23.11., 7.12., 21.12."
-      - "Adres zajęć: sala YMCA, Moniuszki 4A."
-      - >
-        Zapisy mailowo: <a href="swinginlodz@gmail.com">swinginlodz@gmail.com</a>.
+        <a href="mailto:biuro@urbandance.pl">biuro@urbandance.pl</a>
+      - "Tel. 695-385-254"

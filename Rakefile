@@ -22,4 +22,7 @@ task :pull_facebook_events do
   File.open('data/pl/parties.yml', 'w') do |out|
     YAML.dump({ parties: yaml_parties }, out)
   end
+  File.open('data/en/parties.yml', 'w') do |out|
+    YAML.dump({ parties: yaml_parties }, out)
+  end
 end
