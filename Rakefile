@@ -1,5 +1,6 @@
 require "koala"
 require "YAML"
+require "time"
 require "pry"
 
 task :pull_facebook_events do
@@ -8,6 +9,9 @@ task :pull_facebook_events do
   page = client.get_object("swinginlodz")
   events = client.get_connection("swinginlodz", "events", { fields: %w(id name start_time end_time place description cover.type(large)) })
   yaml_parties = []
+  events = events.sort_by do |event|
+    Time.parse(event["start_time"]) rescue Time.now
+  end
   events.each do |event|
     yaml_parties << {
       url: "https://www.facebook.com/#{event['id']}",
