@@ -6,7 +6,7 @@ task :pull_facebook_events do
   Koala.config.api_version = "v2.8"
   client = Koala::Facebook::API.new("EAAR9le4ELiwBAD0ZAo44ePa4eZBTfHbnNqcFEwy092vtv18Dyg7iqQn30pJfQCnczfT3uqlvUeyIXtNdJ9HlDpVDKIz7nfwpqai706gtwewB9VbxxlKeKGGrGOLvUMNqBCi6sYZBcRxDdTuFkqMKbMF5VZBXqNfeunLm1xXF1zeJ4gGKNJthCtvcZCmNURfQZD")
   page = client.get_object("swinginlodz")
-  events = client.get_connection("swinginlodz", "events", { fields: %w(id name start_time end_time place description picture.type(large)) })
+  events = client.get_connection("swinginlodz", "events", { fields: %w(id name start_time end_time place description cover.type(large)) })
   yaml_parties = []
   events.each do |event|
     yaml_parties << {
@@ -15,7 +15,7 @@ task :pull_facebook_events do
       start: event["start_time"],
       end: event["end_time"],
       venue: [event["place"]&.[]("name"),event["place"]&.[]("location")&.[]("street")].compact.join(", "),
-      photo: event["picture"]&.[]("data")&.[]("url"),
+      photo: event["cover"]&.[]("source"),
       description: event["description"]
     }
   end
