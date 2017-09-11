@@ -30,3 +30,5 @@ task :pull_facebook_events do
     YAML.dump({ parties: yaml_parties }, out)
   end
 end
+
+task default: [:pull_facebook_events]
