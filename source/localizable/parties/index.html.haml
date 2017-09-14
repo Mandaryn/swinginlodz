@@ -5,8 +5,7 @@
   %p= paragraph
 
 .row
-  - Array.wrap(data.send(I18n.locale).parties.parties).each_with_index do |party, index|
-    - next if Date.parse(party.start) < Date.today
+  - Array.wrap(data.send(I18n.locale).parties.parties).reject { |party| Date.parse(party.start) < Date.today }.each_with_index do |party, index|
     - if (index % 3).zero?
       .clearfix.visible-md-block.visible-lg-block
     - if (index % 2).zero?
