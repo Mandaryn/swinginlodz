@@ -46,7 +46,7 @@
   :start: '2017-06-04T20:00:00+0200'
   :end: '2017-06-04T23:00:00+0200'
   :venue: Cafe Wolność, plac Wolności 7
-  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18664189_438865813145161_6038766376589026404_n.jpg?oh=c3d3afd89df6b5ad6aa2612d17b127d7&oe=5A481B7F
+  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18664189_438865813145161_6038766376589026404_n.jpg?oh=9feb147d3470c37e335fcec2e261aadf&oe=5A6FA87F
   :description: |-
     Kochani,
     Wprawki Swingowe jadą na wakacje. Czerwcową imprezą żegnamy na chwilę Cafe Wolność i kończymy wprawkowy sezon. Teraz tańczyć będziemy więcej w pięknych okolicznościach przyrody!
@@ -207,7 +207,7 @@
   :start: '2017-09-01T15:00:00+0200'
   :end: '2017-09-03T20:00:00+0200'
   :venue: Ośrodek Kultury Górna, Siedlecka 1
-  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/20663887_1921544738115824_5628517195555995935_n.jpg?oh=45fb3ea3511888ed1c9bdcea3fa5a864&oe=5A477AC3
+  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/20663887_1921544738115824_5628517195555995935_n.jpg?oh=418025165284d18b79783402abf9666f&oe=5A6F07C3
   :description: "Przywitajmy wrzesień tanecznym krokiem w rytmie swinga. \nMiłośników
     tańca i pasjonatów kultury amerykańskiej lat 30' i 40' zapraszamy na trzy wyjątkowe
     popołudnia:\n* dwa dni warsztatów tańca lidny hop \n* swingowy piknik wraz z potańcówką.\n\nTerminy
@@ -353,10 +353,49 @@
     of basic level workshops so make sure you know basic steps 6 counts or 8 counts.\nPrice:
     30 PLN (1,5h) \nSIGN UP ---> https://goo.gl/forms/O7EjGF3RewoIsFdl1\n\n...and
     swing you there!"
-- :url: https://www.facebook.com/342768386165975
+- :url: https://www.facebook.com/342768399499307
+  :name: SWING TIME! Potańcówka ze Swing Załogą!
+  :start: '2017-10-18T21:30:00+0200'
+  :end: '2017-10-19T00:00:00+0200'
+  :venue: Z Innej Beczki, Moniuszki 6
+  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22008013_742629082528289_457217155009937466_n.jpg?oh=543c1e312c3b941b51bc09f5542d3c56&oe=5A71435D
+  :description: |-
+    Swing Załoga gości w naszym pubie od długiego czasu, umilając nam środowe wieczory. Jeśli zawitaliście kiedyś na potacówkę wiecie jak przyjemnie jest u nas w tym czasie. W każdy środowy wieczór  z głośników leci swingowa muzyka, a na parkiecie panuje taneczne szaleństwo :)
+
+
+    Zapraszamy serdecznie!
+
+    Wstęp bezpłatny!
+- :url: https://www.facebook.com/342768396165974
+  :name: SWING TIME! Potańcówka ze Swing Załogą!
+  :start: '2017-10-25T21:30:00+0200'
+  :end: '2017-10-26T00:00:00+0200'
+  :venue: Z Innej Beczki, Moniuszki 6
+  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22008013_742629082528289_457217155009937466_n.jpg?oh=543c1e312c3b941b51bc09f5542d3c56&oe=5A71435D
+  :description: |-
+    Swing Załoga gości w naszym pubie od długiego czasu, umilając nam środowe wieczory. Jeśli zawitaliście kiedyś na potacówkę wiecie jak przyjemnie jest u nas w tym czasie. W każdy środowy wieczór  z głośników leci swingowa muzyka, a na parkiecie panuje taneczne szaleństwo :)
+
+
+    Zapraszamy serdecznie!
+
+    Wstęp bezpłatny!
+- :url: https://www.facebook.com/342768392832641
+  :name: SWING TIME! Potańcówka ze Swing Załogą!
+  :start: '2017-10-11T21:30:00+0200'
+  :end: '2017-10-12T00:00:00+0200'
+  :venue: Z Innej Beczki, Moniuszki 6
+  :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22008013_742629082528289_457217155009937466_n.jpg?oh=543c1e312c3b941b51bc09f5542d3c56&oe=5A71435D
+  :description: |-
+    Swing Załoga gości w naszym pubie od długiego czasu, umilając nam środowe wieczory. Jeśli zawitaliście kiedyś na potacówkę wiecie jak przyjemnie jest u nas w tym czasie. W każdy środowy wieczór  z głośników leci swingowa muzyka, a na parkiecie panuje taneczne szaleństwo :)
+
+
+    Zapraszamy serdecznie!
+
+    Wstęp bezpłatny!
+- :url: https://www.facebook.com/342768389499308
   :name: SWING TIME! Potańcówka ze Swing Załogą!
   :start: '2017-10-04T21:30:00+0200'
-  :end: '2017-10-26T00:00:00+0200'
+  :end: '2017-10-05T00:00:00+0200'
   :venue: Z Innej Beczki, Moniuszki 6
   :photo: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22008013_742629082528289_457217155009937466_n.jpg?oh=543c1e312c3b941b51bc09f5542d3c56&oe=5A71435D
   :description: |-
