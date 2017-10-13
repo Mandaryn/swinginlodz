@@ -15,3 +15,18 @@ classes: &classes_pl
       - >
         <a href="mailto:biuro@urbandance.pl">biuro@urbandance.pl</a>
       - "Tel. 695-385-254"
+  -
+    name: "Lindy Hop, beginner UDZ"
+    leaders: "Zuzia i Piotrek"
+    weekday: "Wtorek"
+    time: "19.10-20.10"
+    description:
+      - "Start 17 października."
+      - "Regularne zajęcia Lindy Hopa w szkole tańca UDZ."
+      - >
+        Cennik: <a href="http://www.urbandance.pl/cennik">http://www.urbandance.pl/cennik</a>.
+      - "Adres: ul. Zachodnia 85."
+      - "Zapisy i płatności:"
+      - >
+        <a href="mailto:biuro@urbandance.pl">biuro@urbandance.pl</a>
+      - "Tel. 695-385-254"
