@@ -5,7 +5,7 @@ require "pry"
 
 task :pull_facebook_events do
   Koala.config.api_version = "v2.8"
-  client = Koala::Facebook::API.new("EAAR9le4ELiwBAPfJ38PcrINQRcf7U56w4GGrHy8yasBneqHSUoEacYNA43Vl9zJfmKsoKBJTgHFb8OfggDiI1Ws8vQclfZBlehZACCQRwUit5o3JjM0hHbVJOeHC6oZB7gKwb9NdSZBjHr5uuuCmvlgKjS2iVWaNWz3O7KgtoJjCM1F4a88HsDyT7OdNSTAZD")
+  client = Koala::Facebook::API.new("EAACEdEose0cBAHC6DlZAe1IaYn5HRCA15eNZBiJkrkgReFnTN2owOPfVkUuGMq4mbadVsZCPd9IOVc7BlVnRZBLdbMZADJZBUbARw7xUtTCIcF21DftRdx63aEYw6lchqMXP3rZB3jsYUg1EGUnCJqy86FIGXTtZAQQEpcMB7O1MJtHDeTqr2S74UbhrtjjZAcLgZD")
   page = client.get_object("swinginlodz")
   events = client.get_connection("swinginlodz", "events", { fields: %w(id name start_time end_time event_times place description cover.type(large)) })
   yaml_parties = []
